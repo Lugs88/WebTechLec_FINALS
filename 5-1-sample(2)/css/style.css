@@ -1,0 +1,115 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: #efefef;
+}
+#navbar {
+    transition: background-color 0.2s ease-out;
+    position: fixed;
+    width: 100%;
+    height: 4vw;
+    z-index: 1;
+}
+nav.scroll {
+    background: linear-gradient(to left, #2a7b9b, #00baad);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: 0.8s;
+}
+header nav > a > img {
+    height: 2.3vw;
+    float: left;
+    transform: translate(1vw, 0.8vw);
+}
+ul.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+.navbar-nav li {
+    float: left;
+}
+.navbar-nav li > a, .navbar-nav li > div > button {
+    display: block;
+    color: #d3d3d3;
+    text-align: center;
+    text-decoration: none;
+    padding: 1vw 2vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+.navbar-nav li > a:hover {
+    color: #efefef;
+}
+.cover {
+    background: url('/img/bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.cover > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #efefef;
+    font-weight: 500;
+    font-size: 3vw;
+}
+.cover > button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-image: linear-gradient(to left, #2a7b9b 10%, #00baad 100%);
+    border-image-slice: 1;
+    color: #2a7b9b;
+    font-size: 1.2vw;
+    background: transparent;
+    padding: 1vw;
+    width: 10vw;
+}
+.cover > button:hover {
+    background: linear-gradient(-40deg, #2a7b9b, #00baad);
+    transition: 0.5s;
+    color: #efefef;
+}
+.dropbtn {
+    background: transparent;
+    color: #d3d3d3;
+    margin-top: 0.15vw;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: static;
+    display: inline-block;    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 15vw;
+    overflow: auto;
+    box-shadow: 0vw 1vw 2vw 0vw rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 0.5vw;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {
+    background-color: #ddd;
+}
+.show {
+    display:block;
+}
