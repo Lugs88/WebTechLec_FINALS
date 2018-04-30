@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>WebTech Finals</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css">
+  <script src="./resources/jquery/jquery-3.3.1.min.js"></script>
+  <script src="./resources/bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+  <script type="text/javascript" src="js/jquery.gallery.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('#dg-container').gallery();
+    });
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css">
+
+  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic".
+  <script src="vendors/jquery.easings.min.js"></script>-->
+  <!-- This following line is only necessary in the case of using the option `scrollOverflow:true`
+  <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>-->
+  <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({sectionsColor : ['#ccc', '#1bbc9b']});
+  });
+  </script>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Lessons</a></li>
+          <li><a href="#">Self-Assessment</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+    <div id="fullpage">
+    <div class="section" id="section0">
+
+      <div class="slideshow">
+        <div class="container">
+            <section id="dg-container" class="dg-container">
+            <div class="dg-wrapper">
+              <a href="#"><img src="images/1.jpg" alt="image05"></a>
+              <a href="#"><img src="images/2.jpg" alt="image06"></a>
+              <a href="#"><img src="images/3.jpg" alt="image07"></a>
+            </div>
+            <nav>
+              <span class="dg-prev">&lt;</span>
+              <span class="dg-next">&gt;</span>
+            </nav>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section1">
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Welcome To This AWESOME Website</h1>
+        </div>
+      </div>
+  	</div>
+
+  </div>
+</body>
+
+</html>
