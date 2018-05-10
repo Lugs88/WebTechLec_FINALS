@@ -185,16 +185,18 @@ ol.list li.list-type-circle-lg::before {
     font-size: 1.2rem;
     margin-right: 1rem;
 }
-
-li.list-type-circle-sm > mark + p {
-    margin: 0.50em 3.0em;
+li.list-type-circle-sm > mark ~ p {
+    margin: 0.50em 2.7em;
 }
-li.list-type-circle-lg > mark + p {
+li.list-type-circle-lg > mark ~ p {
     margin: 0 4.20em;
 }
 li.list-type-circle-sm > p {
-    margin: 0.50em 2.70em;
+    margin: 0.50em 2.40em;
     font-size: 1rem;
+}
+li.list-type-circle-lg > p {
+    margin: 0 4.0em;
 }
 .strong-li {
     font-size: 1.2rem;

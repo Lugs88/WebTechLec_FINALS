@@ -24,8 +24,8 @@
                         <a href="lessons.html" class="nav-link dropdown-toggle active mr-3" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lessons</a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a href="java-servlets.html" class="dropdown-item">Lesson 1: Servlets</a>
-                            <a href="#" class="dropdown-item">Lesson 2: PHP</a>
-                            <a href="#" class="dropdown-item">Lesson 3:</a>
+                            <a href="php.html" class="dropdown-item">Lesson 2: PHP</a>
+                            <a href="nodejs.html" class="dropdown-item">Lesson 3: Node.js</a>
                        </div>
                    </li>
                    <li class="nav-item">
@@ -38,6 +38,7 @@
            </div>
         </nav>
     </header>
+    
     <div class="cover">
         <div class="bg-item" style="background-image: url(../img/bg1.jpg)">
         </div>
@@ -48,7 +49,7 @@
             <div class="col-sm-3 pt-5 ml-5">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link bg-active" href="#">Lesson 1: Java Servlets</a>
+                        <a class="nav-link bg-active" href="#">JAVA SERVLETS</a>
                         <div class="subnav">
                             <ul class="subnav-menu">
                                 <li class="nav-item">
@@ -89,25 +90,6 @@
                                 </li>
                             </ul>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link bg-active" href="#">Lesson 2: PHP</a>
-                        <div class="subnav">
-                            <ul class="subnav-menu">
-                                <li class="nav-item">
-                                    <a href="#">PHP: Overview</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#">Cookies</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#">Sessions</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link bg-active" href="#">Lesson 3: NodeJS</a>
                     </li>
                 </ul>
             </div>
@@ -169,12 +151,10 @@ set JAVA_HOME = C:\jdk1.8.0_65
                     <hr>
                     <p class="lead">The browser has two methods to get and send information in the web browser. The <strong class="highlight-text">GET Method</strong> and the <strong class="highlight-text">POST Method</strong>.</p>
                     <ol class="list ml-5 mt-5">
-                        <li class="list-type-circle-lg">
-                            <mark class="formatted-text strong">GET Method</mark>
+                        <li class="list-type-circle-lg strong-li">GET Method
                             <p class="lead">This method sends the information of the user that was encoded which is appended to the request of the page. The page and the information was separated by a question mark.</p>
                         </li>
-                        <li class="list-type-circle-lg">
-                            <mark class="formatted-text strong">POST Method</mark>
+                        <li class="list-type-circle-lg strong-li">POST Method
                             <p class="lead">This is a very good method for the information to pass to a backend program.</p>
                         </li>
                     </ol>
@@ -277,26 +257,32 @@ set JAVA_HOME = C:\jdk1.8.0_65
                     <ol class="list ml-4">
                         <li class="list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.status_code</mark>
+                            <p class="lead">It gives attribute status code in a java.lang.Integer data type. In addition, the error will hold the status code returned by the container.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">int</mark></p>
                         </li>
                         <li class="list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.exception_type</mark>
+                            <p class="lead">It gives attribute information about exception type in a java.lang.Class data type. In addition, it is a fully-qualified class name of a Java exception type and is a class instance indicating the type of exception that caused the error.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">Class</mark></p>
                         </li>
                         <li class="list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.message</mark>
+                            <p class="lead">This attribute gives data exact error message which can be stored and analyzed after storing in a java.lang.String data type. In addition is a string telling the exception message, passed to the exception constructor.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">String</mark></p>
                         </li>
                         <li class="list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.request_uri</mark>
+                            <p class="lead">This attribute gives details about URL calling the servlet and it can be stored and analysed after storing in a java.lang.String data type. In addition, the error will hold the request URI from where the error request originated.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">String</mark></p>
                         </li>
                         <li class="list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.exception</mark>
+                            <p class="lead">This attribute gives instruction about the exception raised, which can be stored and analysed. In addition, the error will hold information about the exception thrown.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">Throwable</mark></p>
                         </li>
                         <li class="list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.servlet_name</mark>
+                            <p class="lead">This attribute gives servlet name which can be stored and analyzed after storing in a java.lang.String data type. In addition, the error will hold the servlet name in case the exception is thrown from within a servlet.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">String</mark></p>
                         </li>
                     </ol>
