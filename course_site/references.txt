@@ -1,0 +1,7 @@
+REFERENCES:
+
+cover - background
+https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/index.html
+
+CHANGE NAVBAR
+https://jsfiddle.net/wamosjk/ufhp9s15/
