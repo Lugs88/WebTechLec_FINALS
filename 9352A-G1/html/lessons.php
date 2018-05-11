@@ -29,6 +29,7 @@
     
     <div class="container pt-5 mb-10 text-justify">
         <h1 class="text-center">Learning Paths</h1>
+        <p class="lead text-center" style="display:block; margin: 0 auto; width: 50rem;">Stir up your knowledge of functional programming and learn how to develop various web applications with server-side scripting languages.</p>
         <div class="row mt-8">
             <div class="col-sm-4 mb-3">
                 <div class="card">
@@ -55,7 +56,7 @@
                     <div class="card-body">
                         <img src="../img/nodejs.png" alt="NodeJS Logo">
                         <h5 class="card-title">NodeJS</h5>
-                        <p class="card-text">An open source and was developed by Ryan Dahl. Node.js has different software...</p>
+                        <p class="card-text">Node.js consists of different software packages and it is a runtime environment ...</p>
                         <a href="nodejs.php" class="btn btn-dark">Learn more...</a>
                     </div>
                 </div>
@@ -77,7 +78,7 @@
                     <div class="card-body">
                         <img src="../img/web-security.svg" alt="Web Security Logo">
                         <h5 class="card-title">Web Security</h5>
-                        <p class="card-text">Insert some text here...</p>
+                        <p class="card-text">Web security is progressively significant for every topic in an organization that can be hold or grasp firmly.  The size keeps ...</p>
                         <a href="web-security.php" class="btn btn-dark">Learn more...</a>
                     </div>
                 </div>
@@ -93,7 +94,7 @@
             <p>Web Systems and Technologies</p> 
         </div>
         <div class="col-xl-6 text-right">    
-            <a href="index.html"><img src="../img/webtech2.png" alt="logo"></a>
+            <a href="../index.php"><img src="../img/webtech2.png" alt="logo"></a>
             <p>Copyright &copy; 2018 Webtech. All rights reserved.</p>  
             </div>
         </div>

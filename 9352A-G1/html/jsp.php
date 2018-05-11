@@ -67,23 +67,23 @@
                     <h2 class="text-left">JSP Tags</h2>
                     <hr>
                     <ol class="list">
-                       <li class="list-type-circle-sm strong-li">Declaration Tag (
+                       <li class="ctr list-type-circle-sm strong-li">Declaration Tag (
                             <mark class="formatted-text strong">&lt;%! %&gt;</mark> )
                             <p class="lead">Allows a developer in declaring variables or even methods.</p>
                         </li>
-                        <li class="list-type-circle-sm strong-li">Expression Tag (
+                        <li class="ctr list-type-circle-sm strong-li">Expression Tag (
                             <mark class="formatted-text strong">&lt;%= %&gt;</mark> )
                             <p class="lead">Allows a developer to embed any JAVA Expression.</p>
                         </li>  
-                        <li class="list-type-circle-sm strong-li">Directive Tag (
+                        <li class="ctr list-type-circle-sm strong-li">Directive Tag (
                             <mark class="formatted-text strong">&lt;%@directive... %&gt;</mark> )
                             <p class="lead">A JSP directive gives special information about the page to the JSP Engine.</p>
                         </li>
-                        <li class="list-type-circle-sm strong-li">Scriplet Tag (
+                        <li class="ctr list-type-circle-sm strong-li">Scriplet Tag (
                             <mark class="formatted-text strong">&lt;% ... %&gt;</mark> )
                             <p class="lead">This tag can access any variable that has been declared.</p>
                         </li>
-                        <li class="list-type-circle-sm strong-li">Action Tag
+                        <li class="ctr list-type-circle-sm strong-li">Action Tag
                             <p class="lead"><strong class="highlight-text">Action tag</strong> enables the use of server side JavaBeans, can transfer control between pages, and is a browser independent.</p>
                         </li>            
                     </ol>
@@ -136,7 +136,7 @@
             <p>Web Systems and Technologies</p> 
         </div>
         <div class="col-xl-6 text-right">    
-            <a href="index.html"><img src="../img/webtech2.png" alt="logo"></a>
+            <a href="../index.php"><img src="../img/webtech2.png" alt="logo"></a>
             <p>Copyright &copy; 2018 Webtech. All rights reserved.</p>  
             </div>
         </div>

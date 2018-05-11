@@ -134,8 +134,20 @@ a.btn-dark:hover, a.btn-dark:focus {
 .mt-10 {
     margin-top: 5rem;
 }
+.ml-9 {
+    margin-left: 4rem !important;
+}
 .ml-10 {
-    margin-left: 5rem;
+    margin-left: 5rem !important;
+}
+.ml-11 {
+    margin-left: 6rem !important;
+}
+.ml-12 {
+    margin-left: 8rem !important;
+}
+.ml-13 {
+    margin-left: 10rem !important;
 }
 /*Heading*/
 
@@ -164,7 +176,7 @@ ol.list {
     list-style-type: none;
     padding: 0;
 }
-ol.list li {
+ol.list li.ctr {
     counter-increment: step-counter;
     margin: 2em 0;
 }
@@ -194,11 +206,11 @@ li.list-type-circle-lg > mark ~ p {
     margin: 0 4.20em;
 }
 li.list-type-circle-sm > p {
-    margin: 0.50em 2.40em;
+    margin: 0.50em 0 0.50em 2.40em;
     font-size: 1rem;
 }
 li.list-type-circle-lg > p {
-    margin: 0 4.0em;
+    margin: 0 0 0 4em;
 }
 .strong-li {
     font-size: 1.2rem;
@@ -223,7 +235,7 @@ footer {
     background: #404040;
     padding: 1rem 3rem;
     bottom: 0;
-    width: 100%;   
+    max-width: 100% !important;   
 }
 footer img {
     height: 2rem; 
@@ -282,7 +294,7 @@ pre.sample-code {
 .strong {
     font-weight: 550;
 }
-.fw-400 {
+.fw-normal {
     font-weight: 400;
 }
 .affix {
@@ -344,9 +356,15 @@ form.login a {
     color: #ffffff;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1075px) {
     .flex-column {
         display: none;
+    }
+    .col-sm-8 {
+        -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 98% !important;
+        flex: 0 0 98% !important;
+        max-width: 98% !important;
     }
 }
 @media only screen and (max-width: 880px) {

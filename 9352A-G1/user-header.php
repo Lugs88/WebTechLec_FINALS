@@ -27,6 +27,7 @@
                         <a href="/9352A-G1/html/php.php" class="dropdown-item">Lesson 2: PHP</a>
                         <a href="/9352A-G1/html/nodejs.php" class="dropdown-item">Lesson 3: Node.js</a>
                         <a href="/9352A-G1/html/jsp.php" class="dropdown-item">Lesson 4: JSP</a>
+                        <a href="/9352A-G1/html/web-security.php" class="dropdown-item">Lesson 5: Web Security</a>
                    </div>
                </li>
                <li class="nav-item">

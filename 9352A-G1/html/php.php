@@ -100,13 +100,13 @@
                     <h2 class="text-left">PHP Sessions</h2>                    
                     <hr>
                     <ol class="list">
-                        <li class="list-type-circle-lg strong-li">Starting a PHP Session
+                        <li class="ctr list-type-circle-lg strong-li">Starting a PHP Session
                             <p class="lead">In PHP a session can be started by calling the <mark class="formatted-text">session_start()</mark> function which checks if a session has been started or not then and starts one. This function is recommended to be placed at the beginning of the page.</p>
                         </li>
-                        <li class="list-type-circle-lg strong-li">Destroying a PHP Session
+                        <li class="ctr list-type-circle-lg strong-li">Destroying a PHP Session
                             <p class="lead">To destroy a PHP Session use a function called <mark class="formatted-text">session_destroy()</mark></p>
                         </li>
-                        <li class="list-type-circle-lg strong-li">PHP Auto Session
+                        <li class="ctr list-type-circle-lg strong-li">PHP Auto Session
                             <p class="lead">Set  the value of <mark class="formatted-text">session.auto_start</mark> to 1 in the php.ini file.</p>
                         </li>
                     </ol>
@@ -131,7 +131,7 @@
             <p>Web Systems and Technologies</p> 
         </div>
         <div class="col-xl-6 text-right">    
-            <a href="index.html"><img src="../img/webtech2.png" alt="logo"></a>
+            <a href="../index.php"><img src="../img/webtech2.png" alt="logo"></a>
             <p>Copyright &copy; 2018 Webtech. All rights reserved.</p>  
             </div>
         </div>

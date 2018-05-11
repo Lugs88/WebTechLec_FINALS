@@ -63,19 +63,19 @@
                     <div class="subcontainter-sub pt-3 ml-3">
                         <h3>Where you can use the Node.js?</h3>
                         <ol class="list">
-                            <li class="list-type-circle-sm strong-li">I/O bound Applications
+                            <li class="ctr list-type-circle-sm strong-li">I/O bound Applications
                                 <p class="lead">Improves the performance of I/O bound computers through its memory and storage which it is being transferred by a fast speed.</p>
                             </li>
-                            <li class="list-type-circle-sm strong-li">Data Streaming Applications
+                            <li class="ctr list-type-circle-sm strong-li">Data Streaming Applications
                                 <p class="lead">Is a stream that transfers data at a steady high-speed at one place to another to support such applications as high-definition television.</p>
                             </li>
-                            <li class="list-type-circle-sm strong-li">Data Intensive Real-time Applications (DIRT)
+                            <li class="ctr list-type-circle-sm strong-li">Data Intensive Real-time Applications (DIRT)
                                 <p class="lead">This application uses a data parallel computing to approach a process of a large volumes of data.</p>
                             </li>
-                            <li class="list-type-circle-sm strong-li">JSON APIs based Applications
+                            <li class="ctr list-type-circle-sm strong-li">JSON APIs based Applications
                                 <p class="lead">It portrays how clients should ask permission or edit data from a server and how will the server respond to the requests.</p>
                             </li>
-                            <li class="list-type-circle-sm strong-li">Single Page Applications
+                            <li class="ctr list-type-circle-sm strong-li">Single Page Applications
                                 <p class="lead">Is a Web apps that fits a single page and through that page, the user will interact with the apps.</p>
                             </li>
                         </ol>
@@ -142,16 +142,16 @@
                     <div class="subcontainer-sub pt-3 ml-3">
                         <h3>Four Types of Streams:</h3>
                         <ol class="list">
-                            <li class="list-type-circle-sm m1">
+                            <li class="ctr list-type-circle-sm m1">
                                 <strong class="strong-li">Readable</strong> &rArr; used for read operation.
                             </li>
-                            <li class="list-type-circle-sm m1">
+                            <li class="ctr list-type-circle-sm m1">
                                 <strong class="strong-li">Writable </strong> &rArr; used for write operation.
                             </li>
-                            <li class="list-type-circle-sm m1">
+                            <li class="ctr list-type-circle-sm m1">
                                 <strong class="strong-li">Duplex </strong> &rArr; used for both read write operation.
                             </li>
-                            <li class="list-type-circle-sm m1">
+                            <li class="ctr list-type-circle-sm m1">
                                 <strong class="strong-li">Transform </strong> &rArr; outputs the computed value based on input.
                             </li>
                         </ol>
@@ -195,7 +195,7 @@
             <p>Web Systems and Technologies</p> 
         </div>
         <div class="col-xl-6 text-right">    
-            <a href="index.html"><img src="../img/webtech2.png" alt="logo"></a>
+            <a href="../index.php"><img src="../img/webtech2.png" alt="logo"></a>
             <p>Copyright &copy; 2018 Webtech. All rights reserved.</p>  
             </div>
         </div>

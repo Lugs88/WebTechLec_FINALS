@@ -38,7 +38,7 @@
                 <p class="lead">
                     This website aims to provide knowledge about various server side scipting web technologies and web securities. It also tests your knowledge about what you've learned through reading the website's various topics. The contents in the websites come from many sources and documentation then summarized for easier reading.
                 </p>
-                <a href="./html/lessons.php"><button type="button" class="btn btn-primary">Start Now</button></a>
+                <a href="./html/lessons.php"><button class="btn btn-primary" type="button">Start Now</button></a>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
             <p>Web Systems and Technologies</p> 
         </div>
         <div class="col-xl-6 text-right">    
-            <a href="index.html"><img src="img/webtech2.png" alt="logo"></a>
+            <a href="index.php"><img src="img/webtech2.png" alt="logo"></a>
             <p>Copyright &copy; 2018 Webtech. All rights reserved.</p>  
             </div>
         </div>

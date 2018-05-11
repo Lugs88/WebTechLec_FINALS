@@ -114,15 +114,15 @@ set JAVA_HOME = C:\jdk1.8.0_65
                         <li>Garbage are collected by the garbage collector.</li>
                     </ul>
                     <ol class="list">
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">init() method</mark>
                             <p class="lead">The <strong class="highlight-text">init()method</strong> can only be called once. This method is only called when the servlet is created, and is not called for any user requests. </p>
                         </li>
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">service() method</mark>
                             <p class="lead">It is the main method which processes the true task. It handles the requests coming from the client and responses back to the client.</p>
                         </li>
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">destroy() method</mark>
                             <p class="lead">The <strong class="highlight-text">destroy()</strong> method will be only called once at the end of the servlet. This method may allow your servlet to close all the connections of your database.</p>
                         </li>
@@ -134,10 +134,10 @@ set JAVA_HOME = C:\jdk1.8.0_65
                     <hr>
                     <p class="lead">The browser has two methods to get and send information in the web browser. The <strong class="highlight-text">GET Method</strong> and the <strong class="highlight-text">POST Method</strong>.</p>
                     <ol class="list ml-5 mt-5">
-                        <li class="list-type-circle-lg strong-li">GET Method
+                        <li class="ctr list-type-circle-lg strong-li">GET Method
                             <p class="lead">This method sends the information of the user that was encoded which is appended to the request of the page. The page and the information was separated by a question mark.</p>
                         </li>
-                        <li class="list-type-circle-lg strong-li">POST Method
+                        <li class="ctr list-type-circle-lg strong-li">POST Method
                             <p class="lead">This is a very good method for the information to pass to a backend program.</p>
                         </li>
                     </ol>
@@ -181,15 +181,15 @@ set JAVA_HOME = C:\jdk1.8.0_65
                     <p class="lead">Status codes play an important role between the communication of the client and the server. The java servlet can access the functionalities of HTTP codes using the HTTPServletResponse object.</p>
                     <p class="lead">Below are the methods to set HTTP Status Codes:</p>
                     <ol class="list ml-3">
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">public void setStatus(int statusCode)</mark>
                             <p class="lead">The servlet is able to set the status code using the given parameter.</p>
                         </li>
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">public void sendRedirect(String url)</mark>
                             <p class="lead">This method will redirect you to another site using the ‘url’ parameter.</p>
                         </li>
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">public void sendError(int code, String message)</mark>
                             <p class="lead">This method will send to the client the status code along with its message.</p>
                         </li>
@@ -202,15 +202,15 @@ set JAVA_HOME = C:\jdk1.8.0_65
 	                <p class="lead">Filters are tools that the java servlet uses to screen out the requests sent by the client and the responses sent by the server.</p>
                     <p class="lead">Below are listed the types of filters in the java servlet:</p>
                     <ol class="list ml-4">
-                        <li class="list-type-circle-sm strong-li">Authentication Filters</li>
-                        <li class="list-type-circle-sm strong-li">Data compression Filters</li>
-                        <li class="list-type-circle-sm strong-li">Encryption Filters</li>
-                        <li class="list-type-circle-sm strong-li">Filters that trigger resource access events</li>
-                        <li class="list-type-circle-sm strong-li">Image Conversion Filters</li>
-                        <li class="list-type-circle-sm strong-li">Logging and Auditing Filters</li>
-                        <li class="list-type-circle-sm strong-li">MIME-TYPE Chain Filters</li>
-                        <li class="list-type-circle-sm strong-li">Tokenizing Filters</li>
-                        <li class="list-type-circle-sm strong-li">XSL/T Filters That Transform XML Content</li>
+                        <li class="ctr list-type-circle-sm strong-li">Authentication Filters</li>
+                        <li class="ctr list-type-circle-sm strong-li">Data compression Filters</li>
+                        <li class="ctr list-type-circle-sm strong-li">Encryption Filters</li>
+                        <li class="ctr list-type-circle-sm strong-li">Filters that trigger resource access events</li>
+                        <li class="ctr list-type-circle-sm strong-li">Image Conversion Filters</li>
+                        <li class="ctr list-type-circle-sm strong-li">Logging and Auditing Filters</li>
+                        <li class="ctr list-type-circle-sm strong-li">MIME-TYPE Chain Filters</li>
+                        <li class="ctr list-type-circle-sm strong-li">Tokenizing Filters</li>
+                        <li class="ctr list-type-circle-sm strong-li">XSL/T Filters That Transform XML Content</li>
                     </ol>
                 </div>
                 
@@ -220,32 +220,32 @@ set JAVA_HOME = C:\jdk1.8.0_65
                     <p class="lead">When a Java Servlet throws an exception the container will search for the web.xml file which contains the configuration about the error handling such as the location of the error page and the error code or exception type associated with it.</p>
                     <p class="lead">List of Request Attributes:</p>
                     <ol class="list ml-4">
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.status_code</mark>
                             <p class="lead">It gives attribute status code in a java.lang.Integer data type. In addition, the error will hold the status code returned by the container.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">int</mark></p>
                         </li>
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.exception_type</mark>
                             <p class="lead">It gives attribute information about exception type in a java.lang.Class data type. In addition, it is a fully-qualified class name of a Java exception type and is a class instance indicating the type of exception that caused the error.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">Class</mark></p>
                         </li>
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.message</mark>
                             <p class="lead">This attribute gives data exact error message which can be stored and analyzed after storing in a java.lang.String data type. In addition is a string telling the exception message, passed to the exception constructor.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">String</mark></p>
                         </li>
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.request_uri</mark>
                             <p class="lead">This attribute gives details about URL calling the servlet and it can be stored and analysed after storing in a java.lang.String data type. In addition, the error will hold the request URI from where the error request originated.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">String</mark></p>
                         </li>
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.exception</mark>
                             <p class="lead">This attribute gives instruction about the exception raised, which can be stored and analysed. In addition, the error will hold information about the exception thrown.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">Throwable</mark></p>
                         </li>
-                        <li class="list-type-circle-sm">
+                        <li class="ctr list-type-circle-sm">
                             <mark class="formatted-text strong">javax.servlet.error.servlet_name</mark>
                             <p class="lead">This attribute gives servlet name which can be stored and analyzed after storing in a java.lang.String data type. In addition, the error will hold the servlet name in case the exception is thrown from within a servlet.</p>
                             <p class="lead">Data Type: <mark class="formatted-text">String</mark></p>
@@ -336,13 +336,13 @@ set JAVA_HOME = C:\jdk1.8.0_65
                     <p class="lead"><strong class="highlight-text">Cookies</strong> are small text files stored in a computer’s non-volatile storage for tracking information. Cookies are supported in Java Servlets.</p>
                     <p class="lead">The cookies are used in 3 steps:</p>
                     <ol class="list ml-3">
-                        <li class="list-type-circle-sm strong">
+                        <li class="ctr list-type-circle-sm strong">
                             The server script sends cookies to a client (browser).
                         </li>
-                        <li class="list-type-circle-sm strong">
+                        <li class="ctr list-type-circle-sm strong">
                             Cookies are stored in the computer by the browser.
                         </li>
-                        <li class="list-type-circle-sm strong">
+                        <li class="ctr list-type-circle-sm strong">
                             If the browser send a request to the server next time around the client will now send the cookies to the server which the server will use to identify the user.
                         </li>
                     </ol>
@@ -417,19 +417,19 @@ set JAVA_HOME = C:\jdk1.8.0_65
                     <hr>
                     <p class="lead">Ways on how to track sessions:</p>
                     <ol class="list">
-                        <li class="list-type-circle-sm strong-li">Cookies
+                        <li class="ctr list-type-circle-sm strong-li">Cookies
                             <p class="lead">Cookies can be used to track sessions by assigning unique Session IDs to each web client and for every requests from the client.</p>
                         </li>
-                        <li class="list-type-circle-sm strong-li">Hidden Form Fields
+                        <li class="ctr list-type-circle-sm strong-li">Hidden Form Fields
                             <p class="lead">A server can send a hidden HTML form with a unique Session ID for example:</p>
-<pre class="sample-code fw-400">
+<pre class="sample-code fw-normal">
     &lt;input type = "hidden" name = "sessionid" value = "Unique Value"&gt;
 </pre>
                         </li>
-                        <li class="list-type-circle-sm strong-li">URL Rewriting
+                        <li class="ctr list-type-circle-sm strong-li">URL Rewriting
                             <p class="lead">The server can add a semicolon (;) and attach sessionID = <strong class="highlight-text">Unique Value</strong> to the URL</p>
                         </li>
-                        <li class="list-type-circle-sm strong-li">HttpSession Object
+                        <li class="ctr list-type-circle-sm strong-li">HttpSession Object
                             <p class="lead">Using HttpSession session = request.getSession(); in the Servlet Script</p>
                         </li>
                     </ol>
@@ -524,7 +524,7 @@ set JAVA_HOME = C:\jdk1.8.0_65
             <p>Web Systems and Technologies</p> 
         </div>
         <div class="col-xl-6 text-right">    
-            <a href="index.html"><img src="../img/webtech2.png" alt="logo"></a>
+            <a href="../index.php"><img src="../img/webtech2.png" alt="logo"></a>
             <p>Copyright &copy; 2018 Webtech. All rights reserved.</p>  
             </div>
         </div>
