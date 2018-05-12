@@ -9,6 +9,7 @@
     <title>Webtech: JSP</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
 </head>
 <body>
     <?php
@@ -23,7 +24,7 @@
     ?>
     
     <div class="cover">
-        <div class="bg-item-sm" style="background-image: url(../img/bg-servlet.png)"></div>
+        <div class="bg-item-sm" style="background-image: url(../img/bg-jsp.png)"></div>
     </div>
     
     <div class="ml-3 mr-3 pt-5 mb-10">

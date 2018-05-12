@@ -356,6 +356,11 @@ form.login a {
     color: #ffffff;
 }
 
+/*Added styles*/
+.jumbotron {
+    color: #009CDE !important;
+}
+
 @media only screen and (max-width: 1075px) {
     .flex-column {
         display: none;

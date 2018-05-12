@@ -1,0 +1,134 @@
+{
+	"tf" : [
+        {
+            "name" : "tf1",
+            "question" : "Sensitive Data Exposure most likely occurs when an application does not have a proper protect sensitive information.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf2",
+            "question" : "To prevent sensitive data exposure, the data should never be placed in a text that is very clear.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf3",
+            "question" : "Injection is the most popular or the number one list on OWASP.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf4",
+            "question" : "Broken Description will include all types of flaws which are mostly caused by some errors in implementing a management session.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "b"
+        },
+        {
+            "name" : "tf5",
+            "question" : "Security Misconfiguration is a type, or a component is very susceptible to a configuration that has many insecurities and is being classified as a protector or as a security that leads to a misconfiguration.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf6",
+            "question" : "Cross-Site Scripting is yet another kind of an attack being done, that can be tag along or carried    out on compromised people or the users of a website.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf7",
+            "question" : "Insufficient Logging and Monitoring, instead of having no vulnerabilities.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "b"
+        },
+        {
+            "name" : "tf8",
+            "question" : "The XML External Entity (XXE) Attack is considered to be not a type of server-side request forgery.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "b"
+        },
+        {
+            "name" : "tf9",
+            "question" : "Insecure Deserialization is a vulnerability which usually happens when a trusted data is being processed or is being used for the misused of the applications logic.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "b"
+        },
+        {
+            "name" : "tf10",
+            "question" : "To prevent Insecure Deserialization, you must not accept those objects that are serialized.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        }
+    ]
+}

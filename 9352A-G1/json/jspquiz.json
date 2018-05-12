@@ -1,0 +1,134 @@
+{
+	"tf" : [
+        {
+            "name" : "tf1",
+            "question" : "JSP is a technology that was based on a famous language, Java.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf2",
+            "question" : "JavaServer files together with HTML files which includes tags that has the java source code that will provide static content.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "b"
+        },
+        {
+            "name" : "tf3",
+            "question" : "JSP or JavaServer Pages is easy and will give the programmers/developers to create websites and applications in a faster way..",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf4",
+            "question" : "JSP has only one platform.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "b"
+        },
+        {
+            "name" : "tf5",
+            "question" : "Declaration Tag allows a developer in declaring variables or even methods.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf6",
+            "question" : "The data from HTML cannot be pass straight into a JavaBean.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "b"
+        },
+        {
+            "name" : "tf7",
+            "question" : "As the word itself declarations Is the one declaring one or more variables or methods which you can be used to cod in Java.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf8",
+            "question" : "JSP Expression was an element which has no scripting language that is being monitored.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "b"
+        },
+        {
+            "name" : "tf9",
+            "question" : "A JSP comments is the one that marks text, which the container of the JSP must not be noticed or simple must be ignored.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "a"
+        },
+        {
+            "name" : "tf10",
+            "question" : "JSP comment not important , when you want to describe or give meaning to a part of your JSP.",
+            "choices" : [
+                {
+                    "a" : "True"
+                },
+                {
+                    "b" : "False"
+                }
+            ],
+            "correctAnswer" : "b"
+        }
+    ]
+}

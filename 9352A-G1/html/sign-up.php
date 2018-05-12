@@ -5,63 +5,27 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="../js/bootstrap.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.min.js"></script>
-    <script src="../js/jquery.slim.min.js"></script>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
-    <title></title>
-    <style type="text/css">
-      .bg-dark {
-          background: linear-gradient(to left, #2a7b9b, #00baad) !important;
-          box-shadow: 0.5rem 0.1rem 0.5rem 0.1rem rgba(108, 117, 125, 0.5);
-      }
-      nav {
-        position: static !important;
-      }
-    </style>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
   </head>
 
   <body>
-    <header>
+    <?php
+      include_once '../general-header.php';
+    ?>
 
-        <nav id="scroll-nav" class="navbar navbar-expand-lg navbar-dark bg-dark pl-10">
-            <a href="../index.php" class="navbar-brand">
-                <img src="../img/webtech2.png" alt="logo">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-btn" aria-controls="collapse-btn" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="collapse-btn">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a href="../html/lessons.html" class="nav-link dropdown-toggle mr-3" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lessons</a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <a href="./java-servlets.html" class="dropdown-item">Lesson 1: Servlets</a>
-                            <a href="php.html" class="dropdown-item">Lesson 2: PHP</a>
-                            <a href="nodejs.html" class="dropdown-item">Lesson 3: Node.js</a>
-                       </div>
-                   </li>
-                   <li class="nav-item">
-                       <a href="#" class="nav-link mr-3">Self-Assessment</a>
-                   </li>
-                   <li class="nav-item">
-                       <a href="#" class="nav-link">About Us</a>
-                   </li>
-               </ul>
-           </div>
-        </nav>
-    </header>
+    <div class="cover">
+        <div class="bg-item-sm" style="background-image: url(../img/bg3.jpg)"></div>
+    </div>
 
     <div class="container">
           <div class="row" style="margin-bottom: 15%;">
               <div class="col-md-12">
                   <form class="needs-validation"role="form" method="POST" action="../php/sign-up-inc.php">
                       <fieldset>
-                          <legend>Account Details</legend>
+                          <legend><h3 class='mt-4'>Account Details</h3></legend>
 
                           <div class="form-group col-md-6">
                               <label for="firstname">First name</label>
@@ -130,28 +94,18 @@
           </div>
       </div>
 
-      <footer>
-          <div class="row">
-              <div class="col-sm-5 mr-10">
-                 <div class="nav-footer mb-3">
-                      <a href="index.html">Home</a>
-                      <a href="../html/lessons.html">Lessons</a>
-                      <a href="#">Self-Assessment</a>
-                      <a href="#">About Us</a>
-                 </div>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique ac diam in vestibulum. Vivamus vitae vestibulum ligula. Duis facilisis ut sapien at tincidunt. Nunc vel rhoncus quam, sit ametimg aliquam neque</p>
-              </div>
-              <div class="col-sm-5 r-0">
-                  <a href="index.html"><img src="../img/webtech2.png" alt="logo"></a>
-                  <p class="text-copyright">Copyright &copy; 2018 Webtech. All rights reserved.</p>
-                  <div class="links mt-4">
-                      <a href="#"><img src="../img/github.svg" alt="Github Logo"></a>
-                      <a href="http://www.oracle.com/technetwork/java/javaee/servlet/index.html"><img src="../img/servlets.png" alt="Java Servlets Logo"></a>
-                      <a href="http://php.net/manual/en/tutorial.php"><img src="../img/php.svg" alt="PHP Logo"></a>
-                      <a href="https://nodejs.org/api/"><img src="../img/nodejs.png" alt="NodeJS Logo"></a>
-                  </div>
-              </div>
+      <footer>       
+        <div class="row"> 
+          <div class="col-xl-6 text-left">
+            <p>Saint Louis University, Maryheights Campus</p>  
+            <p>School of Computing and Information Sciences</p> 
+            <p>Web Systems and Technologies</p> 
+        </div>
+        <div class="col-xl-6 text-right">    
+            <a href="../index.php"><img src="../img/webtech2.png" alt="logo"></a>
+            <p>Copyright &copy; 2018 Webtech. All rights reserved.</p>  
           </div>
+        </div>
       </footer>
 
     <script>
@@ -173,6 +127,11 @@
       }, false);
     })();
     </script>
-
+  
+    <script src="../js/jquery.slim.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>
