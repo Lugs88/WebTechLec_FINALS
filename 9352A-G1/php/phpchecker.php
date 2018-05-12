@@ -76,6 +76,61 @@
                 echo "</p>";
             }
 
+            $sql = "SELECT username, quiz2 FROM users ORDER BY quiz2 DESC LIMIT 10";
+            $con = mysqli_connect($dbServerName,$dbUserName ,$dbPassword ,$dbName );
+
+            $ctr = 1;
+
+            if ($result=mysqli_query($con,$sql)) {
+                echo "<h2 class='text-center pb-3'>";
+                echo "Leaderboards";
+                echo "</h2>";
+                echo "<table class = 'table-striped'>";
+                echo "<tr>";
+                echo "<th>";
+                echo "Rank";
+                echo "</th>";
+                echo "<th>";
+                echo "Username";
+                echo "</th>";
+                echo "<th>";
+                echo "Score";
+                echo "</th>";
+                echo "</tr>";
+                
+                while ($row=mysqli_fetch_row($result)) {
+                    // printf ("%s (%s)\n",$row[0],$row[1]);
+                    echo "<tr>";
+                    echo "<td>";
+                    echo $ctr;
+                    echo "</td>";
+                    echo "<td>";
+                    echo $row[0];
+                    echo "</td>";
+                    echo "<td>";
+                    echo $row[1];
+                    echo "</td>";
+                    echo "</tr>";
+
+                    $ctr++;
+                }
+
+                echo "</table>";
+                echo "</table>";
+                echo "<p class='text-left ml-10'>";
+                echo "&larr; Back to ";
+                echo "<a href='../html/self-assessment.php'>";
+                echo "Self-Assessment";
+                echo "</a>";
+                echo "</p>";
+                
+                // mysqli_free_result($result);
+            }
+            else {
+                echo "not working";
+            }
+
+
             $mysqli->close();
         ?>
     </body>

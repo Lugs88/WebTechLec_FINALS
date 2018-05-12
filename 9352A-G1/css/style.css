@@ -360,6 +360,27 @@ form.login a {
 .jumbotron {
     color: #009CDE !important;
 }
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+/*.table-striped tr:nth-child(1n){
+    background-color: #45A84D;
+}*/
+
+td, th {
+    padding: 1vw;
+    text-align: center;
+}
+th {
+    background-color: green;
+    color: white;
+}
+
+h2.text-center {
+    color: green;
+}
 
 @media only screen and (max-width: 1075px) {
     .flex-column {
